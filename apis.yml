@@ -1,8 +1,24 @@
 aid: bleacher-report
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bleacher-report.png
 name: Bleacher Report
-description: Bleacher Report is a company surfaced as a portfolio company of uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bleacher Report is a digital sports media company headquartered in San Francisco and
+  owned by Warner Bros. Discovery (Turner Sports). Founded in 2007, it delivers sports news, live
+  scores, highlights, video, and community-driven commentary across the web and its iOS and Android
+  applications, spanning the NFL, NBA, MLB, soccer, and other leagues. Bleacher Report maintains a
+  public GitHub organization with open source engineering projects but does not publish a public
+  developer API program; this profile was surfaced as a portfolio company of Uncork Capital and
+  enriched into the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/bleacher-report/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Sports
+- Media
+- Sports News
+- Content
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bleacher-report-domain-security.yml
 - type: Website
   url: https://bleacherreport.com
+- type: GitHubOrganization
+  url: https://github.com/bleacherreport
+- type: TermsOfService
+  url: https://bleacherreport.com/pages/terms
+- type: PrivacyPolicy
+  url: https://www.wbdprivacy.com/policycenter/b2c
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
