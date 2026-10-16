@@ -1,0 +1,14 @@
+{
+  "repo": "bleacher-report",
+  "feeds": [
+    {
+      "source": "https://feeds.bleacherreport.com/articles",
+      "feed_url": "https://feeds.bleacherreport.com/articles",
+      "title": "",
+      "saved": 60,
+      "method": "feed"
+    }
+  ],
+  "post_count": 60,
+  "fetched": "2026-10-10T13:15:00Z"
+}
