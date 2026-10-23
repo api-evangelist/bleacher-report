@@ -5,10 +5,10 @@
       "source": "https://feeds.bleacherreport.com/articles",
       "feed_url": "https://feeds.bleacherreport.com/articles",
       "title": "",
-      "saved": 60,
+      "saved": 10,
       "method": "feed"
     }
   ],
-  "post_count": 60,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 119,
+  "fetched": "2026-10-17T14:53:57Z"
 }
